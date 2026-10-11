@@ -1,0 +1,18 @@
+# --- Simulacao (Icarus Verilog / GTKWave) ---
+*.vcd
+*.vvp
+*.ppm
+
+# --- Quartus ---
+db/
+incremental_db/
+output_files/
+*.rpt
+*.summary
+*.smsg
+*.qws
+
+# --- Editor e sistema ---
+.vscode/
+.DS_Store
+Thumbs.db
