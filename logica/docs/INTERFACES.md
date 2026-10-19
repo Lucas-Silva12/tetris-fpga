@@ -17,10 +17,6 @@
 `collision` recebe a matriz do **candidato**, nao a matriz anterior.
 Nao acesse `board_data` sem primeiro checar se `abs_x`/`abs_y` estao dentro dos limites.
 
-Observacao: a camada de video futuramente devera renderizar a peca ativa separadamente
-sobre os blocos fixos do tabuleiro.
-
-## Etapa 7 — line_clear
 - `board_in` e o tabuleiro de 200 bits apos a fixacao.
 - `board_out` e o tabuleiro compactado, com zeros no topo.
 - `lines_cleared[4:0]` conta todas as linhas completas de entrada.
