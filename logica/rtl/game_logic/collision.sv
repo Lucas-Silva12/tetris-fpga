@@ -1,4 +1,4 @@
-// Etapa 5: verifica se TODOS os quatro blocos de uma matriz 4x4
+// verifica se TODOS os quatro blocos de uma matriz 4x4
 // cabem no tabuleiro e nao coincidem com blocos ja fixados.
 // board_data[y*10+x] = 1 indica celula ocupada.
 module collision (
